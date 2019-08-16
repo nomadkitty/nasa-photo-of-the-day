@@ -1,15 +1,14 @@
 import React from "react";
-// import Header from "./components/Header"
+import Header from "./components/Header"
 import ApodList from "./components/ApodList"
-// import Footer from "./components/Footer"
-import "./App.css";
+import styled from "styled-components";
+import "./App.scss";
 
 function App() {
   return (
     <div className="App">
-      {/* <Header /> */}
+      <Header />
       <ApodList />
-      {/* <Footer /> */}
     </div>
   );
 }
