@@ -1,13 +1,14 @@
 import React from "react";
-import "./App.css";
+import Header from "./components/Header"
+import ApodList from "./components/ApodList"
+import styled from "styled-components";
+import "./App.scss";
 
 function App() {
   return (
     <div className="App">
-      <p>
-        Read through the instructions in the README.md file to build your NASA
-        app! Have fun 🚀!
-      </p>
+      <Header />
+      <ApodList />
     </div>
   );
 }

@@ -5,9 +5,16 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  color: F7F7F2;
+  background-image: url("./img/guillermo-ferla-kEEl9csCutg-unsplash.jpg");
+  background-size: cover;
+  background-color: #FFF9A5;
+
+
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+  
 }
